@@ -1,0 +1,73 @@
+.main {
+  min-height: 775px;
+  margin-bottom: 120px;
+  background: url("../images/cover.jpg") center center no-repeat;
+  color: white;
+  position: relative;
+}
+
+.main__wrap {
+  padding: 165px 0 50px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.main__title {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-row-gap: 60px;
+  margin-bottom: 150px;
+}
+
+.main__title-text {
+  font-size: 100px;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+
+.main__title-text_it {
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.main__title-text_you {
+  grid-area: 2 / 4 / 3 / 7;
+}
+
+.main__title-text_need {
+  grid-area: 3 / 6 / 4 / 10;
+  justify-self: center;
+  margin-left: 27px; /* Если прям по макету pixel perfect */
+}
+
+.main__about-text {
+  word-spacing: 30px;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+.main__about-btn {
+  width: 256px;
+  padding: 12px 30px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  text-transform: uppercase;
+  font-size: 22px;
+  transition: all 0.5s;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+.main__about-btn::before {
+  content: "";
+  background: white;
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  transition: all 0.5s;
+  z-index: -1;
+}

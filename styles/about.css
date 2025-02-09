@@ -1,0 +1,22 @@
+.about {
+  margin-bottom: 120px;
+}
+
+.about__wrap {
+  display: flex;
+}
+
+.about__info {
+  max-width: 700px;
+  margin-left: 70px;
+  padding-top: 100px;
+}
+
+.about__title {
+  margin-bottom: 100px;
+}
+
+.about__text > p {
+  margin-bottom: 24px;
+  font-size: 20px;
+}

@@ -1,0 +1,9 @@
+.contacts {
+  max-width: 240px;
+  gap: 48px;
+}
+
+.contacts img {
+  transition: transform 0.3s ease;
+}
+

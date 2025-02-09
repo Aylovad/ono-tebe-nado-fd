@@ -1,0 +1,11 @@
+.header {
+  padding: 96px 0;
+}
+
+.header__right {
+  max-width: 240px;
+}
+
+.address__link {
+  max-width: 120px;
+}
